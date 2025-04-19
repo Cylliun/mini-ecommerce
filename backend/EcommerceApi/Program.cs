@@ -1,5 +1,7 @@
 
+using EcommerceApi.Controllers;
 using EcommerceApi.Data;
+using EcommerceApi.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceApi

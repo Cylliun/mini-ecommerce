@@ -9,7 +9,6 @@
         public int PedidoId { get; set; }
         public Pedido Pedido { get; set; } //Relacionamento de tabelas
 
-
         public int Quantidade { get; set; }
         public decimal PrecoUnitario { get; set; }
     }

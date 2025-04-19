@@ -9,9 +9,9 @@ namespace EcommerceApi.Data
         {
         }
 
-        DbSet<Produto> Produtos { get; set; }
-        DbSet<Pedido> Pedidos { get; set; }
-        DbSet<ItemPedido> ItemPedidos { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
+        public DbSet<ItemPedido> ItemPedidos { get; set; }
 
     }
 }
