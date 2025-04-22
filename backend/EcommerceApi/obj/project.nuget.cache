@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PP3pH1kKtnM=",
+  "dgSpecHash": "SIsfW/zyAaE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\EcommerceApi.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,7 @@
     "C:\\Users\\Eiji\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
     "C:\\Users\\Eiji\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Eiji\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
+    "C:\\Users\\Eiji\\.nuget\\packages\\scalar.aspnetcore\\2.1.17\\scalar.aspnetcore.2.1.17.nupkg.sha512",
     "C:\\Users\\Eiji\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\Eiji\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\Eiji\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",

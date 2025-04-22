@@ -3,6 +3,7 @@ using EcommerceApi.Controllers;
 using EcommerceApi.Data;
 using EcommerceApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 namespace EcommerceApi
 {
@@ -29,6 +30,7 @@ namespace EcommerceApi
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
+                app.MapScalarApiReference(); // scalar adicionado
             }
 
             app.UseHttpsRedirection();
