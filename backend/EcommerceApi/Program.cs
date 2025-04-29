@@ -24,6 +24,17 @@ namespace EcommerceApi
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("policyCors",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:4200/")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                    });
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -37,6 +48,9 @@ namespace EcommerceApi
 
             app.UseAuthorization();
 
+            app.UseRouting();
+
+            app.UseCors("http://localhost:4200/");
 
             app.MapControllers();
 
