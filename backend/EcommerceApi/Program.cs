@@ -29,7 +29,7 @@ namespace EcommerceApi
                 options.AddPolicy("policyCors",
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:4200/")
+                        builder.WithOrigins("http://localhost:4200")
                         .AllowAnyHeader()
                         .AllowAnyMethod();
                     });
@@ -46,11 +46,11 @@ namespace EcommerceApi
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
-
             app.UseRouting();
 
-            app.UseCors("http://localhost:4200/");
+            app.UseCors("policyCors");
+
+            app.UseAuthorization();
 
             app.MapControllers();
 

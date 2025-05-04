@@ -47,7 +47,8 @@ namespace EcommerceApi.Controllers
             var produto = new Produto()
             {
                 Nome = criarProdutoDto.Nome,
-                Preco = criarProdutoDto.Preco
+                Preco = criarProdutoDto.Preco,
+                ImagemUrl = criarProdutoDto.ImagemUrl
             };
 
             _context.Add(produto);
