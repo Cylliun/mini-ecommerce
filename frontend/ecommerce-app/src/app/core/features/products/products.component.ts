@@ -1,11 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, NgModule, OnInit } from '@angular/core';
 import { Produtos } from '../../models/produtos';
 import { ProductsService } from '../../services/products.service';
-import { CommonModule } from '@angular/common';;
+import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-products',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './products.component.html',
   styleUrl: './products.component.css'
 })
@@ -27,6 +28,10 @@ export class ProductsComponent implements OnInit{
         console.error("Erro ao listar os produtos", err);
         this.erroMensagem = false;
       }
-    })
+    });
+  }
+
+  adicionarAoCarrinho(produto: Produtos) {
+    this.produtosServices.adicionarAoCarrinho(produto);
   }
 }

@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\dto\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:dto\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\models\\itempedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:models\\itempedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\dto\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:dto\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|c:\\users\\eiji\\source\\repos\\mini-ecommerce\\backend\\ecommerceapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB43AEF9-0B7D-41D3-8DFD-5DB1206CD5FD}|EcommerceApi.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,8 +37,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 176,
-          "SelectedChildIndex": 5,
+          "DockedHeight": 159,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +46,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T01:22:09.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T04:30:23.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemPedido.cs",
+              "DocumentMoniker": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Models\\ItemPedido.cs",
+              "RelativeDocumentMoniker": "Models\\ItemPedido.cs",
+              "ToolTip": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Models\\ItemPedido.cs",
+              "RelativeToolTip": "Models\\ItemPedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T23:20:02.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Models\\Pedido.cs",
               "RelativeDocumentMoniker": "Models\\Pedido.cs",
               "ToolTip": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Models\\Pedido.cs",
               "RelativeToolTip": "Models\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T20:23:37.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T20:23:37.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -59,25 +103,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAAADQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T04:30:16.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T04:30:16.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswDMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T04:30:23.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CriarProdutoDto.cs",
               "DocumentMoniker": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Dto\\CriarProdutoDto.cs",
               "RelativeDocumentMoniker": "Dto\\CriarProdutoDto.cs",
@@ -85,12 +115,11 @@
               "RelativeToolTip": "Dto\\CriarProdutoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T04:30:20.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T04:30:20.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "Models\\Produto.cs",
@@ -98,13 +127,12 @@
               "RelativeToolTip": "Models\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T04:35:00.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T04:35:00.6Z"
             }
           ]
         },
         {
-          "DockedHeight": 86,
+          "DockedHeight": 103,
           "SelectedChildIndex": -1,
           "Children": [
             {

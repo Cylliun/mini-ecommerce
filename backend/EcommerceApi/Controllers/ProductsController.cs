@@ -57,8 +57,8 @@ namespace EcommerceApi.Controllers
             response.Dados = await _context.Produtos.ToListAsync();
             response.Status = true;
             response.Message = "Produto criado com sucesso";
+
             return Ok(response);
         }
-
     }
 }
