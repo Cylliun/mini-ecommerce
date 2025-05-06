@@ -1,12 +1,16 @@
-﻿namespace EcommerceApi.Models
+﻿using System.Text.Json.Serialization;
+
+namespace EcommerceApi.Models
 {
     public class ItemPedido
     {
         public int Id { get; set; }
-        public int IdProduto { get; set; }
+
+        public int ProdutoId { get; set; }
         public Produto Produto { get; set; } //Relacionamento de tabelas
 
         public int PedidoId { get; set; }
+        [JsonIgnore]
         public Pedido Pedido { get; set; } //Relacionamento de tabelas
 
         public int Quantidade { get; set; }

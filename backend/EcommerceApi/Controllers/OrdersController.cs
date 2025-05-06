@@ -32,9 +32,9 @@ namespace EcommerceApi.Controllers
             {
                 Itens = criarPedidoDto.Itens.Select(item => new ItemPedido
                 {
-                    Id = item.IdProduto,
+                    ProdutoId = item.ProdutoId,
                     Quantidade = item.Quantidade,
-                    PrecoUnitario = item.PrecoUnitario,
+                    PrecoUnitario = item.PrecoUnitario
 
                 }).ToList(),
             };

@@ -1,12 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { CartService } from '../../services/cart.service';
-import { CarrinhoItem } from '../../models/carrinhoItem';
 import { CommonModule } from '@angular/common';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { environment } from '../../environment/environment';
+import { CarrinhoItem } from '../../models/carrinhoItem';
+import { CartService } from '../../services/cart.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-cart',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './cart.component.html',
   styleUrl: './cart.component.css'
 })
@@ -15,7 +16,9 @@ export class CartComponent implements OnInit{
   carrinhoItens: CarrinhoItem[] = [];
   total: number = 0;
 
-  constructor(private cartService: CartService,private router: Router) {}
+  urlApi = environment.apiUrl;
+
+  constructor(private cartService: CartService) {}
 
   ngOnInit(): void {
     this.carrinhoItens = this.cartService.listarItensCarrinho();
@@ -23,10 +26,23 @@ export class CartComponent implements OnInit{
   }
 
   confirmarPedido() {
-    if (this.carrinhoItens.length === 0 || this.carrinhoItens.length === null){
-      return alert('O carrinho está vazio!');
-    }
-    console.log('Pedido confirmado', this.carrinhoItens);
-    this.router.navigate(['/checkout']);
+    const pedido = {
+      itens: this.carrinhoItens.map(item => ({
+        
+        produtoId: item.produtoId,
+        quantidade: item.quantidade,
+        precoUnitario: item.precoUnitario
+      }))
+    };
+
+    this.cartService.confirmarPedido(pedido).subscribe({
+      next: () => {
+        alert('Pedido realizado com sucesso');
+        
+      },
+      error: () => {
+        console.error('Erro ao confirmar pedido');
+      }
+    });
   }
 }

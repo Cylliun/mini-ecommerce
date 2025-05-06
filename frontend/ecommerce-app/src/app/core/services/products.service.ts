@@ -22,7 +22,7 @@ export class ProductsService{
 
   adicionarAoCarrinho(produto: Produtos) {
     this.carrinhoService.adicionarItensCarrinho({
-      idProduto: produto.id,
+      produtoId: produto.id,
       nome: produto.nome,
       precoUnitario: produto.preco,
       quantidade: 1,

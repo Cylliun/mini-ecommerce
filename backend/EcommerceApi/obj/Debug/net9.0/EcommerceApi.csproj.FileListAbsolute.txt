@@ -54,6 +54,7 @@ C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\bin\Debug\net9.0\
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\bin\Debug\net9.0\Scalar.AspNetCore.dll
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\bin\Debug\net9.0\System.ClientModel.dll
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\bin\Debug\net9.0\System.CodeDom.dll
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\bin\Debug\net9.0\System.Composition.AttributedModel.dll
@@ -164,5 +165,4 @@ C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\obj\Debug\net9.0\
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\obj\Debug\net9.0\EcommerceApi.pdb
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\obj\Debug\net9.0\EcommerceApi.genruntimeconfig.cache
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\obj\Debug\net9.0\ref\EcommerceApi.dll
-C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\bin\Debug\net9.0\Scalar.AspNetCore.dll
 C:\Users\Eiji\source\repos\mini-ecommerce\backend\EcommerceApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
