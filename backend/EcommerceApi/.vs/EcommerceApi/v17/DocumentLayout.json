@@ -37,7 +37,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 159,
+          "DockedHeight": 195,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\Eiji\\source\\repos\\mini-ecommerce\\backend\\EcommerceApi\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAwwCEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowCEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T01:22:09.973Z",
               "EditorCaption": ""
@@ -132,7 +132,7 @@
           ]
         },
         {
-          "DockedHeight": 103,
+          "DockedHeight": 67,
           "SelectedChildIndex": -1,
           "Children": [
             {

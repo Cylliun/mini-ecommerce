@@ -28,4 +28,5 @@ export class CartService {
   TotalItensCarrinho(): number {
     return this.itens.reduce((total, item) => total + item.precoUnitario * item.quantidade, 0);
   }
+
 }
