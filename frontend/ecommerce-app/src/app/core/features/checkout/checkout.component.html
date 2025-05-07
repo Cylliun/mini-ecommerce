@@ -1,1 +1,16 @@
-<p>checkout works!</p>
+<h1 class="p-4 text-2xl font-bold text-pink-600">Histórico de Pedidos</h1>
+
+<div class="min-w-screen p-4 text-white">
+    <div *ngFor="let pedido of pedidos" class="mb-4 p-4 border-2 border-white">
+        <h1 class="">Pedido n°{{pedido.id}}</h1>
+        <p>Data de Criação {{pedido.dataCriacao}}</p>
+        <p>Total: R${{pedido.total}}</p>
+
+        <h3 class="text-2xl font-bold text-pink-600">Itens</h3>
+        <ul>
+            <li *ngFor="let itens of pedido.itens">
+                {{ itens.produto.nome}} - Quantidade: {{ itens.quantidade }} - Preço: R$ {{ itens.precoUnitario }}
+            </li>
+        </ul>
+    </div>
+</div>
